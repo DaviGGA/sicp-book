@@ -1,0 +1,2 @@
+Com um applicative order, o método p vai ser avaliado e assim criar um loop infinito na recursão. 
+Mas no normal, em que há avaliação preguiçosa, retornará 0 pois (p) nunca será avaliado.

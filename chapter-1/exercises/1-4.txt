@@ -1,0 +1,3 @@
+O operador do procedure é definido pela expressão (if (> b 0) + -), permitindo assim sempre somar "a" com o módulo de "b":
+
+se b > 0, a + b, senão, a - b.
