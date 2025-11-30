@@ -22,6 +22,3 @@
     (cond ((= times 0) #t)
     ((fermat-test n) (fast-prime? n (- times 1)))
     (else #f)))
-
-
-(display (fast-prime? 12 3))
